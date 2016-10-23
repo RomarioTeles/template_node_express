@@ -1,0 +1,23 @@
+{
+  "name": "mean",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "consolidate": "^0.14.0",
+    "cookie-parser": "^1.4.1",
+    "cookies": "^0.6.1",
+    "express": "^4.13.3",
+    "express-load": "^1.1.15",
+    "express-method-override": "0.0.3",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.3",
+    "mustache": "^2.2.1"
+  }
+}
