@@ -28,23 +28,23 @@ module.exports = function(){
 		extended:true
 	}));
 
-	app.use(express.static(path.join(__dirname,'/public')));
+	//app.use(express.static(path.join(__dirname,'/public')));
 
 	app.use("/node_modules", express.static('node_modules'));
 
-	app.use("/js", express.static('public/js'));
+	//app.use("/js", express.static('public/js'));
 
-	app.use("/css", express.static('public/css'));
+	//app.use("/css", express.static('public/css'));
 
-	app.use("/views", express.static('public/views'));
+	//app.use("/views", express.static('public/views'));
 
-	app.use("/img", express.static('public/img'));
+	//app.use("/img", express.static('public/img'));
 
-	app.set('views', 'public/views');
+	//app.set('views', 'public/views');
 
-	app.engine('html', engines.mustache);
+	//app.engine('html', engines.mustache);
 
-	app.set('view engine', 'html');
+	//app.set('view engine', 'html');
 
 	eLoad('models')
 		.then('controllers')
